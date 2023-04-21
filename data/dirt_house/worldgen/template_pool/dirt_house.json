@@ -1,0 +1,14 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element":{
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "dirt_house:dirt_house"
+            },
+            "weight": 1
+        }
+    ]
+}

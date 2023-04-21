@@ -1,0 +1,26 @@
+{
+    "type": "jigsaw",
+    "biomes":"#dirt_house:dirt_house",
+    "max_distance_from_center": 40,
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "size": 7,
+    "spawn_overrides": {
+        "monster": {
+            "bounding_box": "full",
+            "spawns": [
+                {
+                    "type": "minecraft:experience_orb",
+                    "minCount": 1,
+                    "maxCount": 3,
+                    "weight": 1
+                }
+            ]
+        }
+    },
+    "start_pool": "dirt_house:dirt_house",
+    "start_height": {
+        "absolute":0
+    },
+    "step": "surface_structures",
+    "use_expansion_hack": false
+}
